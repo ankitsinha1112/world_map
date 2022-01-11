@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+   /* border: 2px solid red; */
+   width: 80%;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+    margin: 25px 43px;
+}
+
+.search{
+    margin: 5px;
+    margin-left: 76px;
+    /* margin-right: 63px; */
+    padding: 9px;
+    display: flex;
+    justify-content: right;
+    
+    
+    /* border: 2px solid black; */
+}
+
+.search input{
+    height: 26px;
+    width: 200px;
+}
+
+.items{
+    display: flex;
+}
+.alpha{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.alpha a{
+    padding: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.alpha a:hover{
+   color: black;
+   font-size: 1.2rem;
+}
+
+.countries h2{
+   font-size: 2rem;
+   margin: 15px 70px;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    /* width: 60%; */
+    /* border: 2px solid brown; */
+    font-size: 1.3rem;
+    /* align-items: center; */
+   
+}
+
+.sec li{
+    margin: 7px 4px;
+}
+
+.sec a{
+    text-decoration: none;
+   color: gray;
+
+}
+.sec a:hover{
+   font-size: 1.32rem;
+   color: black;
+
+}
+
+.sec1{
+    
+    list-style: none;
+    margin: 10px 200px;
+    
+  
+}
+
+
+
+.sec2{
+    list-style: none;
+    margin: 10px 200px;
+    
+}
