@@ -27,6 +27,11 @@
     /* border: 2px solid black; */
 }
 
+.search i {
+    margin: 8px 6px 10px 10px;
+    cursor: pointer;
+}
+
 .search input{
     height: 26px;
     width: 200px;

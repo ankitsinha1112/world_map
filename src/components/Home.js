@@ -6,7 +6,7 @@ export const Home = () => {
     <div>
       <div className="main">
         <div className="head">
-          <h1>Countries and Economies</h1>
+          <h1>Countries and their Information</h1>
         </div>
         <hr />
         <div className="items">
@@ -39,7 +39,9 @@ export const Home = () => {
             <a href="">Z</a>
           </div>
           <div className="search">
-            <input type="text" />
+         
+            <input  type="text" />
+            <i class="fas fa-search"></i>
           </div>
         </div>
         <hr />
