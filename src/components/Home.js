@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="head">
           <h1>Countries and their Information</h1>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className="items">
           <div className="alpha">
             <a href="">A</a>
@@ -38,13 +38,14 @@ export const Home = () => {
             <a href="">Y</a>
             <a href="">Z</a>
           </div>
-          <div className="search">
+          {/* <div className="search">
          
             <input  type="text" />
             <i class="fas fa-search"></i>
-          </div>
+          </div> */}
         </div>
-        <hr />
+        {/* <hr /> */}
+        <div className="count">
         <div className="countries">
           <h2>A</h2>
           <div className="sec">
@@ -237,7 +238,7 @@ export const Home = () => {
         <div className="countries">
           <h2>D</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Denmark</a>
               </li>
@@ -259,7 +260,7 @@ export const Home = () => {
         <div className="countries">
           <h2>E</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Ecuador</a>
               </li>
@@ -293,7 +294,7 @@ export const Home = () => {
         <div className="countries">
           <h2>F</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Faroe Islands</a>
               </li>
@@ -320,7 +321,7 @@ export const Home = () => {
         <div className="countries">
           <h2>G</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Gabon</a>
               </li>
@@ -372,7 +373,7 @@ export const Home = () => {
         <div className="countries">
           <h2>H</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Haiti</a>
               </li>
@@ -394,7 +395,7 @@ export const Home = () => {
         <div className="countries">
           <h2>I</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Iceland</a>
               </li>
@@ -431,7 +432,7 @@ export const Home = () => {
         <div className="countries">
           <h2>J</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lttt">
               <li>
                 <a href="">Jamaica</a>
               </li>
@@ -451,7 +452,7 @@ export const Home = () => {
         <div className="countries">
           <h2>K</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Kazakhstan</a>
               </li>
@@ -485,7 +486,7 @@ export const Home = () => {
         <div className="countries">
           <h2>L</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Lao PDR</a>
               </li>
@@ -522,7 +523,7 @@ export const Home = () => {
         <div className="countries">
           <h2>M</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Macao SAR, China</a>
               </li>
@@ -591,7 +592,7 @@ export const Home = () => {
         <div className="countries">
           <h2>N</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Namibia</a>
               </li>
@@ -637,7 +638,7 @@ export const Home = () => {
         <div className="countries">
           <h2>O</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt ltt">
               <li>
                 <a href="">Oman</a>
               </li>
@@ -653,7 +654,7 @@ export const Home = () => {
         <div className="countries">
           <h2>P</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Pakistan</a>
               </li>
@@ -693,7 +694,7 @@ export const Home = () => {
         <div className="countries">
           <h2>Q</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt ltt">
               <li>
                 <a href="">Qatar</a>
               </li>
@@ -709,7 +710,7 @@ export const Home = () => {
         <div className="countries">
           <h2>R</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Romania</a>
               </li>
@@ -820,7 +821,7 @@ export const Home = () => {
         <div className="countries">
           <h2>T</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Tajikistan</a>
               </li>
@@ -866,7 +867,7 @@ export const Home = () => {
         <div className="countries">
           <h2>U</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt ">
               <li>
                 <a href="">Uganda</a>
               </li>
@@ -898,7 +899,7 @@ export const Home = () => {
         <div className="countries">
           <h2>V</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Vanuatu</a>
               </li>
@@ -920,7 +921,7 @@ export const Home = () => {
         <div className="countries">
           <h2>W</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lttt">
               <li>
                 <a href="">West Bank and Gaza</a>
               </li>
@@ -936,7 +937,7 @@ export const Home = () => {
         <div className="countries">
           <h2>Y</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lttt">
               <li>
                 <a href="">Yemen, Rep.</a>
               </li>
@@ -952,7 +953,7 @@ export const Home = () => {
         <div className="countries">
           <h2>Z</h2>
           <div className="sec">
-            <div className="sec1">
+            <div className="sec1 lt">
               <li>
                 <a href="">Zambia</a>
               </li>
@@ -965,6 +966,7 @@ export const Home = () => {
              
             </div>
           </div>
+        </div>
         </div>
         <hr />
       </div>
